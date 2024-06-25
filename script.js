@@ -16,7 +16,7 @@ document.addEventListener('keydown', function(event) {
 
 
 document.addEventListener('keydown', function(event) {
-    if ((event.ctrlKey || event.metaKey) && (event.key === '+')) {
+    if ((event.ctrlKey || event.metaKey) && (event.key === '=')) {
         event.preventDefault();
     }
 });
