@@ -9,7 +9,16 @@ document.addEventListener('gestureend', function (e) {
 });
 
 document.addEventListener('keydown', function(event) {
-    if ((event.ctrlKey || event.metaKey) && (event.key === '+' || event.key === '-')) {
+    if ((event.ctrlKey || event.metaKey) && (event.key === '-')) {
         event.preventDefault();
     }
 });
+
+
+document.addEventListener('keydown', function(event) {
+    if ((event.ctrlKey || event.metaKey) && (event.key === '+')) {
+        event.preventDefault();
+    }
+});
+
+
